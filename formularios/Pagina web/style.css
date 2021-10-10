@@ -10,9 +10,11 @@ li{
 /*Da las caracteristicas al contenido del header después de la barra de navegación*/
 .contenedor-header{
     min-height: 50vh;
-    background-image: url("Resources/casa3.jpg");
+    max-height: 51vh;
+    /*background-image: url("Resources/casa3.jpg");*/
     display: flex;
     flex-direction: column-reverse;
+    overflow: hidden;
 }
 /*estilos al título del header*/
 .contenedor-header h1{
